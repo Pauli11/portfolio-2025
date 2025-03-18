@@ -1,0 +1,50 @@
+body {
+
+    background-color:rgb(172, 104, 137);
+    color: #F6F6F6;
+}
+
+strong {
+    color:#22D4FD;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7C5E99;
+    border-bottom: 10px  solid #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px  20px;
+ }
+
+nav{
+    text-align: right;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    Color:#fff;
+    font-size: 20px;
+    font-family: "fira code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a::before{
+    content:"";
+    background-color:#F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+#button-download{
+    display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
+    background-color: #F25A70;
+    padding:18px 20px;
+    box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
+    margin-right: 0px;
+
+}

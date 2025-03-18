@@ -3,7 +3,7 @@
 
 Esse projeto é minha primeira experiência de elaborar um Portfólio, para praticar HTML,CSS e um pouco de Javascript.
 
-Para construí-lo, estarei utilizando diversas fontes de estudo, desde aulas gratuitas do [Alura](https://cursos.alura.com.br/), onde comecei a estruturar o HTML do projeto, passando por video aulas do [Marco Bruno](https://www.youtube.com/watch?v=CZPa3-1BKnY&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa) e também aulas do [DIO](https://web.dio.me/home).
+Para construí-lo, pretendo diversas fontes de estudo, desde aulas  do [Alura](https://cursos.alura.com.br/), onde comecei a estruturar o HTML do projeto, passando por video aulas do [Marco Bruno](https://www.youtube.com/watch?v=CZPa3-1BKnY&list=PLirko8T4cEmzrH3jIJi7R7ufeqcpXYaLa) e também aulas do [DIO](https://web.dio.me/home).
 
 ##
 

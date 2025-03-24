@@ -69,12 +69,12 @@ a::before{
 }
 
 .banner{ 
-    background-image: url ("./assets/img/foto-banner.png");
+    background-image: url("/assets/img/foto-banner.png");
 }
 
 .banner-profissao{
     display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
-    background-color: #363636;
+    background-color: #4F4F4F;
     padding:40px 50px;
     box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
     margin-right: 0px;
@@ -86,6 +86,17 @@ a::before{
     color: #F25A70;
     font-size: 40px;
     box-shadow: 5px  5px 0px black; 
+    display: inline-flex;
+}
+
+.banner-slogan{
+    display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
+    background-color: #4F4F4F;
+    padding:40px 50px;
+    box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
+    margin-right: 0px;
+    transition: transform 200ms linear;
+    font-family:"press start 2P",Arial, Helvetica, sans-serif; 
 }
 
 .button-linkedIn{
@@ -106,8 +117,3 @@ a::before{
     transition: transform 200ms linear;
 }
 
-.foto-banner{
-    display: inline-block;
-    width: 100%;
-    
-}

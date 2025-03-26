@@ -4,7 +4,7 @@ body {
 }
 
 strong {
-    color:#22D4FD;
+    color: #7C5E99;
 }
 
 header{
@@ -29,7 +29,6 @@ nav{
     text-align: right;
 }
 
-
 a {
     display: inline-flex;
     align-items: center;
@@ -41,8 +40,6 @@ a {
     margin-right: 30px;
 }
 
-
-
 a::before{
     content:"";
     background-color:#F25A70;
@@ -50,7 +47,6 @@ a::before{
     height: 10px;
     margin-right: 10px;
 }
-
 
 .button-download {
     display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
@@ -69,42 +65,46 @@ a::before{
 }
 
 .banner{ 
-    background-image: url("/assets/img/foto-banner.png");
+    display: flex;
+    flex-direction: column;
+ 
+    background-image: url(./assets/img/foto-banner.png) no repeat;
 }
 
 .banner-profissao{
-    display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
+    max-width: 360px;
     background-color: #4F4F4F;
     padding:40px 50px;
     box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin-right: 0px;
+    margin-right: 500px;
     transition: transform 200ms linear;
     font-family:"press start 2P",Arial, Helvetica, sans-serif; 
+    
+
 }
 
 .banner-profissao-nome{
     color: #F25A70;
-    font-size: 40px;
-    box-shadow: 5px  5px 0px black; 
+    font-size: 30px;
+    text-shadow: 5px  5px 0px black; 
     display: inline-flex;
-}
+    margin-bottom: 15px;
+   
+    
+  }
 
-.banner-slogan{
-    display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
-    background-color: #4F4F4F;
-    padding:40px 50px;
-    box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin-right: 0px;
-    transition: transform 200ms linear;
-    font-family:"press start 2P",Arial, Helvetica, sans-serif; 
+.banner-profissao-nome p{
+    font-size: 5px;
 }
-
+.buttons{
+   align-items: baseline;
+}
 .button-linkedIn{
-    display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
     background-color: #F25A70;
     padding:18px 20px;
+
     box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin-right: 0px;
+    margin: 10px;
     transition: transform 200ms linear;
 }
 
@@ -117,3 +117,14 @@ a::before{
     transition: transform 200ms linear;
 }
 
+.banner-slogan{
+    max-width: 360px;
+    background-color: #4F4F4F;
+    padding:40px 50px;
+    box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
+    margin-right: 0px;
+    transition: transform 200ms linear;
+    font-family:"press start 2P",Arial, Helvetica, sans-serif; 
+    text-align: justify;
+   
+}

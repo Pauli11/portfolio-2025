@@ -1,0 +1,19 @@
+
+/** importante que todas as características do componente ficarem somente nele; não colocar em tags **/
+.button{
+    display: inline-block; /** por padrão css deixa os textos  como display inline, por isso mudamos pro block   **/
+    background-color: #F25A70;
+    padding:18px 20px;
+    box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
+    Color:#fff;
+    font-family: inherit; /** inherit faz o botao herdar o que for definido, agora ou em mudança futura, a fonte do body(elemento-pai)**/
+    font-size: 20px;
+    transition: transform 200ms linear;
+}
+
+.button:hover{
+    background-color: #22D4FD;
+    font-weight: bold;
+    transform: scale(1.06);
+    color:#000;
+}

@@ -3,9 +3,6 @@ body {
     color: #F6F6F6;
 }
 
-strong {
-    color: #7C5E99;
-}
 
 header{
     display: flex;
@@ -66,9 +63,11 @@ a::before{
 
 .banner{ 
     display: flex;
-    flex-direction: column;
- 
-    background-image: url(./assets/img/foto-banner.png) no repeat;
+    flex-direction: column; 
+    background-image: url("/assets/img/foto-banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
 }
 
 .banner-profissao{
@@ -76,11 +75,11 @@ a::before{
     background-color: #4F4F4F;
     padding:40px 50px;
     box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin-right: 500px;
+    margin-left: 80px;
     transition: transform 200ms linear;
     font-family:"press start 2P",Arial, Helvetica, sans-serif; 
+    margin-top: 50px;
     
-
 }
 
 .banner-profissao-nome{
@@ -88,24 +87,35 @@ a::before{
     font-size: 30px;
     text-shadow: 5px  5px 0px black; 
     display: inline-flex;
-    margin-bottom: 15px;
-   
+    margin-bottom: 15px; 
+    
     
   }
 
-.banner-profissao-nome p{
-    font-size: 5px;
+.banner-profissao-nome + p{
+    font-size: 15px;
 }
+
 .buttons{
-   align-items: baseline;
+   margin:60px;
+   height: 60px;
+   margin-left: 150px;
+   
 }
+
 .button-linkedIn{
     background-color: #F25A70;
     padding:18px 20px;
-
     box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin: 10px;
-    transition: transform 200ms linear;
+   
+}
+
+.button-linkedIn :hover{
+    background-color: #22D4FD;
+    font-weight: bold;
+    transform: scale(1.06);
+    color:#000;
+    
 }
 
 .button-gitHub{
@@ -113,18 +123,22 @@ a::before{
     background-color: #F25A70;
     padding:18px 20px;
     box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin-right: 0px;
     transition: transform 200ms linear;
+
 }
 
 .banner-slogan{
     max-width: 360px;
-    background-color: #4F4F4F;
     padding:40px 50px;
+    background-color: #4F4F4F;
     box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin-right: 0px;
+    margin-left: 80px;
     transition: transform 200ms linear;
     font-family:"press start 2P",Arial, Helvetica, sans-serif; 
     text-align: justify;
    
+}
+
+strong {
+    color: #F25A70
 }

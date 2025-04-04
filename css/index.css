@@ -4,9 +4,6 @@ body {
     color: #F6F6F6;
 }
 
-
-
-
  #logo {
     color: #fff;
     font-family:"press start 2P",Arial, Helvetica, sans-serif; 
@@ -16,25 +13,6 @@ body {
     align-self: center;
        
  }
-
-
-
-
-
-
-.box { 
-    display: flex;
-    flex-direction: column; 
-    background-image: url("/assets/img/foto-banner.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 100%;
-   
-}
-
-
-
-
 
 .title-name{
     font-family:"press start 2P",Arial, Helvetica, sans-serif; 
@@ -46,8 +24,13 @@ body {
  }
 
 .banner-buttons{
-   margin: 50px  300px; 
-   align-items: center;
+  
+    margin-left: 250px;
+    
+}
+
+.banner-buttons .button{
+    margin-right: 200px;
 }
 
 .banner-slogan{

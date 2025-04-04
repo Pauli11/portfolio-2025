@@ -5,16 +5,7 @@ body {
 }
 
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #7C5E99;
-    border-bottom: 10px  solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding: 10px  20px;
- }
+
 
  #logo {
     color: #fff;
@@ -27,28 +18,11 @@ header{
  }
 
 
-nav{
-    text-align: right;
-}
 
-a {
-    display: inline-flex;
-    align-items: center;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-    Color:#fff;
-}
 
-a::before{
-    content:"";
-    background-color:#F25A70;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
 
-.banner{ 
+
+.box { 
     display: flex;
     flex-direction: column; 
     background-image: url("/assets/img/foto-banner.png");
@@ -58,24 +32,15 @@ a::before{
    
 }
 
-.banner-profissao{  
-    font-family:"press start 2P",Arial, Helvetica, sans-serif; 
-    width: 630px;
-    max-height: 184px;
-    background-color: #4F4F4F;
-    padding:40px 80px;
-    box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    transition: transform 200ms linear;  
-    margin-top: 50px;
-    margin-left: 80px;
-    text-align: center;
-}
 
-.my-name{
+
+
+
+.title-name{
     font-family:"press start 2P",Arial, Helvetica, sans-serif; 
     color: #F25A70;
     display: inline-flex;
-    font-size: 30px;
+    font-size: 35px;
     text-shadow: 5px  5px 0px black; 
     margin-bottom: 15px;
  }
@@ -86,14 +51,8 @@ a::before{
 }
 
 .banner-slogan{
-    font-family:"press start 2P",Arial, Helvetica, sans-serif; 
-    width: 630px;
-    height: 50px;
-    padding:40px 80px;
-    background-color: #4F4F4F;
-    box-shadow: 5px  5px 0px black;     /** os numeros indicam: eixo X, eixo y, blur, cor     **/
-    margin-left: 80px;
-    transition: transform 200ms linear;
+    font-family: "fira code", Arial, Helvetica, sans-serif;
+    font-size: 20px;
     text-align: center;
     align-content: center;
    

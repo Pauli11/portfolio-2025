@@ -9,6 +9,7 @@
     font-family: inherit; /** inherit faz o botao herdar o que for definido, agora ou em mudança futura, a fonte do body(elemento-pai)**/
     font-size: 20px;
     transition: transform 200ms linear;
+    text-decoration: none;
 }
 
 .button:hover{

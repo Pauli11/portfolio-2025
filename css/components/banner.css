@@ -1,7 +1,7 @@
 .banner { 
     display: flex;
     flex-direction: column; 
-    background-image: url("/assets/img/photo-banner.png");
+    background-image: url("assets/img/photo-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px ;

@@ -1,0 +1,30 @@
+
+.progress-bar{
+    height: 40px;
+    width: 320px;
+    margin-left: 110px;
+    background: #fff;
+    border:  5px solid black;      
+}
+
+.percent {
+    background-color: #7C5E99;
+    width: 3%;
+    border:0px;
+    position: relative;
+    bottom: 45px;
+    left: 4px;
+    
+}
+
+.HTML .percent{
+    width: 20%;
+ }
+
+ .CSS .percent{
+    width: 10%;
+ }
+
+ .Javascript .percent{
+    width: 5%;
+ }

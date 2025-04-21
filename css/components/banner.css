@@ -9,3 +9,34 @@
     justify-content: space-around;
    
 }
+
+
+.title-name{
+    font-family:"press start 2P",Arial, Helvetica, sans-serif; 
+    color: #F25A70;
+    display: inline-flex;
+    font-size:45px;
+    text-shadow: 5px  5px 0px black; 
+    text-align: center;
+    padding-bottom: 10px;
+ }
+
+.banner-buttons{  
+    margin-left: 250px;    
+}
+
+.banner-buttons .button{
+    margin-right: 200px;
+}
+
+.banner-slogan{
+    font-family: "fira code", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;   
+    line-height: 2.5;
+}
+
+strong {
+    color: #F25A70
+}

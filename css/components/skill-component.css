@@ -1,0 +1,36 @@
+.skill-component{
+  width: 450px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+ 
+
+}
+
+.skill-component img{    
+    position:relative;
+    top: 60px;  
+ }
+
+
+.HTML .CSS img{
+    width: 60px;
+    height: 70px;
+}
+
+.Javascript .React .NodeJs.TDD img{
+    width: 90px;
+    height: 90px;
+}
+
+
+
+.skill-name{
+    font-family:"press start 2P",Arial, Helvetica, sans-serif; 
+    color: #fdf9f9;
+    display: inline-flex;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+       
+}
